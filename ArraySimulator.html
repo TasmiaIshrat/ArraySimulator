@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Array Simulator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+
+<body>
+
+    <div class="wrap">
+        <h1>Array Simulator</h1>
+        <div id="display">
+            <p>
+
+            </p>
+        </div>
+
+        <div id="container">
+            <div id="first">
+                <label for="firstDigit">Input Digits:</label>
+                <br>
+                <input id="input_element" type="number" onfocus="this.value=''" name="input" value="">
+                <br>
+
+                <br>
+                <p> </p>
+                <button onclick="add_input_to_array()" class="button">Insert Element</button>
+                <button onclick="add_input_to_first_of_araay()" class="button button3">Add First</button>
+                <button onclick="add_last_to_array()" class="button button4">Add Last</button>
+                <button onclick="delete_first_of_araay()" class="button button5">Delete First</button>
+                <button onclick="delete_last_of_araay()"class="button button5">Delete Last</button>
+                <button onclick="clear_araay()"class="button button5">Clear All</button>
+
+            </div>
+            <div id="second">
+                <label for="firstDigit">Index:</label>
+                <br>
+                <input id="input_index" type="number" onfocus="this.value=''" name="input" value="">
+                <br>
+
+                <br>
+                <p> </p>
+                <button onclick="add_index()" class="button">Add element In Index</button>
+
+
+            </div>
+            <div id="clear"></div>
+        </div>
+    </div>
+
+</body>
+
+</html>

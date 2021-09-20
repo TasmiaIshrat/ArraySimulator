@@ -1,0 +1,46 @@
+.wrap{
+width: 800px;
+margin: auto;
+background-color: greenyellow;
+text-align: center;
+
+}
+
+#display {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height: 30px;
+}
+
+#container {
+    width: 800px;
+    
+    margin: auto;
+}
+#first {
+    width: 500px;
+    float: left;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+}
+#second {
+    width: 300px;
+    float: left;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+}
+#clear {
+    clear: both;
+}
+.button {
+    background-color: rgb(70, 16, 196); 
+    border:none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
